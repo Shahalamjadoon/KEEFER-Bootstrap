@@ -1,0 +1,2675 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.maincont{
+    background-color: gray;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.seccont{
+    background-color: white;
+    max-width: 96%;   
+    margin: 0 auto;
+}
+.keeferdv{
+    display: flex;
+    margin: 0%;
+}
+
+.logodv{
+    width: 50%
+}
+
+.infodiv{
+    margin-right: 3%;
+    width: 100%;
+    display: block;
+    text-align: end;
+
+}
+
+.logodv img{
+    width: 50vw;
+    height: 100%;
+}
+
+.calldiv{
+    width: 90%;
+   margin-left: 10%;
+   margin-top: 3%;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.calldiv h3{
+    
+    border-bottom: 3px solid rgba(124, 124, 124, 0.264);
+    color: rgb(172, 11, 11);
+    font-family: sans-serif;
+    font-size: 43px;
+    font-weight: bolder;
+}
+
+.calldiv h1{
+    font-family: sans-serif;
+font-size: 91px;
+    font-weight: bolder;
+}
+
+.calldiv p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.bardiv{
+    margin: 0%;
+    background-color: brown;
+    
+}
+.homediv{
+    display: flex;
+    justify-content: end;  
+}
+
+.homediv ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 5px;
+color: white;
+font-family: sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-right: 1.7%;
+    
+}
+
+li{
+    padding: 20px;
+    justify-content: end;
+}
+
+ul li:hover{
+    background-color: gray;
+}
+.picdv{
+    margin-top: -3.9%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.leftpic img{
+    height: 67vh;
+    width: 50vw; 
+}
+
+
+
+.leftpic{
+    
+    height: 67vh;
+    width: 50vw;
+    margin-left: 2%;
+    margin-right: 1.5%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
+}
+
+
+.picdv{
+    display: flex;
+    margin-top: 1%;
+}
+.righpic{
+    
+    margin-right: 2%;
+    height: 67vh;
+    width: 41%;
+    background-image: url("./pics/form_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
+}
+
+
+.qstndv{
+    height: 3vh;
+    width: 10vw;
+    padding: 5px;
+    background-color: brown;
+    
+}
+
+.qstndv h1{
+    font-size: 20px;
+    color: white;
+}
+
+.ritqstn p{
+    margin-left: 5%;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: black;
+    font-family: sans-serif;
+}
+
+.ritqstn{
+    
+    margin-left: 6%;
+    width: 20vw;
+}
+
+
+.maincntn{
+    display: flex;
+}
+
+.ritqstn span{
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.psentense{
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.psentense span{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.psentense p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+
+.formcont{
+    
+    display: flex;
+    width: 38.9vw;
+}
+
+.formdv{
+    text-align: end;
+    margin-top: 2%;
+
+    height: 13vh;
+    width: 21vw;
+    
+}
+
+.formdv label{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 20vw;
+    
+}
+.formdv input{
+    height: 3.2vh;
+    width:20vw;
+    margin-left: 2%;
+   
+}
+
+.lblone{
+    display: flex ;
+    justify-content: end ;
+    width: 100%;
+    
+    align-items: center;
+   margin-bottom: 2%;
+}
+.confidential{
+    
+    text-align: center;
+    margin-right: 4%;
+    margin-top: 4.8%;
+}
+
+.confidential img{
+width: 90%;
+    transform: rotate(9.5deg);
+    height: 8vh;   
+}
+.formcont{
+    display: flex;
+}
+.holderdv{
+    margin-top: 4%;
+    margin-left: 6%;
+    width: 42.5vw;
+    height: 5vh;
+}
+
+textarea{
+    height: 12vh;
+    width: 80%;
+    resize: none;
+    
+}
+textarea::placeholder{
+    color: black;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 10px;
+    
+}
+
+.bglastdv{
+   
+    display: flex;
+    margin-top: 15%;
+    width: 100%;
+}
+
+.prvacy p{
+    margin-left: 18%;
+    width: 100%;
+    margin-top: 10%;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(96, 91, 91);
+}
+
+.casebutton{
+   width: 45%;
+   margin-left: 7%;  
+   
+}
+
+
+.casebutton button{
+    width: 100%;
+    border: none;
+    height: 7vh;
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+    margin-top: -1%;
+    margin-left: 20%;
+    
+}
+
+.mediacontainer{
+    display: flex;
+    width: 100%;
+    
+    margin-top: 5%;
+    height: 50vh;
+}
+
+.leftdv{
+   
+    width: 30%;
+     
+    border-right: 2px solid rgba(194, 177, 177, 0.352);
+}
+
+.leftdv h1{
+    font-size: 25px;
+}
+
+.leftdv span{
+    font-size: 25px;
+    color: red;
+}
+
+.textsec{
+    margin-left: 14%;
+}
+
+
+.xyz h1{
+    margin-left: 25%;
+    margin-bottom: 2%;
+    color: rgba(128, 128, 128, 0.608);
+}
+
+.textsec P{
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(194, 22, 22);
+}
+
+.paragraphdv p{
+    color: rgba(0, 0, 0, 0.827);
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.paragraphdv{
+    margin-left: 14%;
+    display: flex;
+}
+.paragraphdv img{
+    margin-left: 7%;
+    width: 7vw;
+margin-bottom: 5%;
+height: 18vh;
+}
+
+.bttndv{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    border-top: 2px solid grey;
+    width: 30vh;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+
+.bttndv button{
+    border: none;
+    background-color: rgb(172, 18, 18);
+    color: white;
+    margin-right: 15%;
+   
+    height: 5vh;
+    width: 9.5vw;
+    font-size: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+    
+}
+
+.middv{
+    width: 36vw;
+    border-right: 2px solid rgba(194, 177, 177, 0.352);
+}
+
+
+.lawy{
+    width: 90%;
+    display: flex;
+    border-bottom: 2px solid rgba(194, 177, 177, 0.352);
+    height: 26vh;
+     
+}
+.lawdv{
+    width: 90%;
+    height: 26vh;
+     margin-left: 10%;
+}
+.lawimgtextdiv{
+    display: flex;
+}
+.lawdivtext{
+    width: 50%;
+}
+.lawdivtext h1{
+    width: 70%;
+    font-size: 25px;
+    
+}
+
+.lawdivtext span{
+    color: brown;
+    font-size: 25px;
+}
+.middivimg{
+    width: 50%;
+}
+.middivimg img{
+    width: 80%;
+    height: 90%;
+   
+}
+
+.lawdivtext p{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.573);
+    font-weight: bold;
+    font-size: 15px;
+}
+.lawbttn{
+    border-top: 2px solid grey;
+    width: 15vw; 
+    margin-top: 0%;
+}
+
+.lawbttn button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 10vw;
+    font-size: 15px;
+    border: none;
+    margin-left: 22%;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+.dwncont{
+    display: flex;
+    margin-top: 4%;
+}
+
+.dwndv{
+    margin-left: 10%;
+    
+    width: 100%;
+}
+.h1pimg{
+    display: flex;
+}
+.h1pdiv{
+    width: 50%;
+}
+.h1pdiv h1{
+    font-size: 25px;
+}
+
+.dwndv span{
+    font-size: 25px;
+}
+
+.dwndv p{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.imgdiv{
+    width: 50%;
+}
+.imgdiv img{
+    width: 11vw;
+    margin-left: 0%;
+}
+.lawbutton{
+    
+    width: 15vw;
+   margin-top: 0%;
+    border-top: 2px solid grey;
+}
+
+.lawbutton button{
+background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 11vw;
+    font-size: 15px;
+    
+    margin-left: 18%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+
+.rightdv{
+    width: 30vw;
+    
+}
+
+.rightpics{
+    display: flex; 
+}
+
+.rightpics{
+    margin-top: 3%;
+    margin-left: 12%;
+}
+
+.image1 img{
+    
+width: 10vw;
+height: 18vh;
+}
+
+.image2 img{
+    margin-left: 18%;
+width: 9vw;
+height: 18vh;
+}
+
+
+.CCdv{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.CCdv h1{
+    font-size: 25px;
+}
+
+.CCdv span{
+    color: brown;
+    font-size: 25px;
+}
+
+.shadowpic{
+    margin-top: 5%;
+}
+
+.paragraphright{
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.paragraphright p{
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(76, 72, 72);
+    font-weight: bold;
+}
+
+.ritbtn{
+width: 15vw;
+    margin-top: 4%;
+    border-top: 2px solid grey;
+    margin-left: 8%;
+}
+
+.ritbtn button{
+background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 11vw;
+    font-size: 14px;
+    margin-left: 20%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+.shadowpic img{
+    width: 100%;
+    height: 1.5vh;
+}
+
+
+
+.lastcontainer{
+    margin-top: 3%;
+    display: flex;
+}
+
+.lefttdiv{
+    margin-left: 3%;
+}
+
+.lefttdiv h2{
+    font-size: 25px;
+}
+
+.lefttdiv span{
+    font-size: 25px;
+    color: brown;
+}
+
+.greydiv{
+    margin-left: 3.5%;
+    width: 19vw;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    height: 12vh;
+    
+    background-color: rgba(109, 107, 107, 0.899);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+
+}
+
+.greydiv img{
+    height: 12vh;
+    width: 1vw;
+}
+
+.greydiv h2{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 4%;
+    margin-top: 2%;
+font-size: 18px;
+}
+
+.greyhb{
+   
+    width: 22vw;
+    height: 11vh;
+}
+
+.greyhb button{
+    background-color: rgba(123, 120, 120, 0.899);
+    margin-top: 10%;
+    margin-left: 55%;
+font-size: 12px;
+border: none;
+color: white;
+font-weight: bold;
+
+}
+
+.learnmoreabout{
+    margin-left: 1%;
+    margin-top: 20%;
+    width: 20vw;
+    
+}
+
+.learnmoreabout h1{
+    font-size: 24px;
+    margin-bottom: 30%;
+}
+
+.learnmoreabout span{
+    font-size: 24px;
+}
+
+.xyz{
+    margin-left: 10%;
+}
+
+.xyz h1{
+    font-family: sans-serif;
+}
+
+.greyhb span{
+    
+    font-size: 14px;
+}
+
+
+.bigheading{
+    width: 51vw;
+    margin-left: 7%;
+    
+}
+
+.bighead h1{
+    color: black;
+}
+
+.midparagraph{
+    margin-top: 3%;
+}
+.midparagraph p{
+    font-family: sans-serif;
+    margin-bottom: 1.5%;
+}
+.medscree{
+    margin-left: 16%;
+}
+.headlast2div{
+    display: flex;
+}
+.lasttdiv{
+    width: 20vw; 
+}
+
+.cmbineitems{
+    margin-left: 16%;
+}
+
+.clientsdv h1{
+font-size: 22px;
+margin-left: 26%;
+}
+
+.clientsdv span{
+    font-size: 22px;
+    color: brown;
+}
+
+.clientp p{
+    margin-left: 26%;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 80%;
+    margin-top: 4%;
+}
+
+.clientbutton button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 8vw;
+    font-size: 12px;
+  margin-bottom: 18%;
+    margin-left: 20%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+.clientbutton{
+    
+    width: 13vw;
+    margin-top: 4%;
+    margin-left: 20%;
+    border-top: 2px solid grey;
+}
+
+
+.bluepic{
+    margin-left: 25%;
+}
+
+.bluepic img{
+    height: 18vh;
+    width: 11vw;
+}
+
+.blackpic{
+    margin-left: 30%;
+}
+
+.blackpic img{
+   height: 17vh;
+    width: 10vw;
+    margin-top: 12%;
+}
+
+.follow{
+    width: 15vw;
+    margin-left: 17%;
+}
+
+.fllwus{
+    margin-top: 17%;
+    margin-left: 5%; 
+}
+
+.fllwus h1{
+    margin-left: 22%;
+    font-size: 22px;
+font-weight: bolder;
+}
+
+.fllwus span{
+    font-size: 22px;
+    color: brown;
+}
+.fllwus img{
+    width: 90%;
+    margin-left: 8%;
+}
+
+.socialmedia{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-bottom: 30%;
+}
+
+.sm1 img{
+    width: 3vw;
+    margin: 3px;
+} 
+
+
+/*################## Mobilescreen ################*/
+
+@media(max-width: 768px){
+ .keeferdv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}  
+
+    .logodv{
+    width: 100%;
+    
+}
+   .logodv img{
+    width: 80vw;
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 13vh;
+} 
+
+  .infodiv{
+    
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+    .calldiv{
+   margin-left: 2%;
+   margin-top: 3%;
+   width: 90%;
+   
+}
+
+    .calldiv h3{
+    width: 51%;
+    margin-left: 25%;
+    color: rgb(172, 11, 11);
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+
+
+    .calldiv h1{
+    font-family: sans-serif;
+font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+
+
+  .calldiv p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 3%;
+}  
+
+
+
+    .homediv{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 5%;
+}
+
+
+
+    ul{
+    list-style: none;
+    display: flex;
+    margin-right: 1.7%;
+    flex-wrap: wrap; 
+    background-color: white;
+}
+
+
+
+
+    li{
+   
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: brown;
+    padding: 2px;
+    
+}
+.homediv ul li a{
+    font-size: 16px;
+}
+
+    .picdv{
+    margin-top: 5%;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 95%;
+    flex-wrap: wrap;
+    margin-left: 1%;
+    
+}
+
+    .leftpic img{
+    width: 100%;
+    }
+    .leftpic{ 
+    height: 67vh;
+    width: 100%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
+}
+    .righpic{
+    margin-left: 0%;
+    margin-right: 0%;
+    
+    margin-top: 4%;
+    height: 100%;
+    width: 100%;
+    background-image: url("./pics/form_bg.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
+}
+   .maincntn{
+    display: flex;
+    flex-wrap: wrap;
+   }
+    .qstndv{
+    height: 6vh;
+    width: 70%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+  .qstndv h1{
+    color: white;
+    font-size: 25px;
+    
+}
+   .ritqstn{
+  
+  margin-left: 0%;
+    width: 100vw;
+   
+}
+    .ritqstn p{
+        
+        margin-right: 15%;
+    font-size: 15px;
+    font-weight: bolder;
+}
+    .ritqstn span{
+    font-size: 21px;
+    color: rgb(50, 0, 116);
+    font-weight: bolder;
+}
+    .psentense span{
+        color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+
+    .psentense p{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.formcont{
+    display: flex;
+    width: 40vw;
+    height: 15vh;
+}
+
+    .formdv{
+    text-align: center;
+    margin-top: 2%;
+    height: 13vh;
+    width: 100%;
+    margin-left: 0;
+    
+}
+
+.lblone{
+    margin-left: 0;
+    text-align: start;
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    
+}
+
+    .formdv input{
+    height: 3.2vh;
+    width:30vw;
+    margin-left: 2%;
+   
+}
+.confidential{
+   width: 100%;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 12%;
+    
+}
+    .confidential img{
+
+    transform: rotate(9.5deg);
+    height: 8vh;  
+    width: 31vw; 
+    margin-left: 85%;
+    margin-top: 8%;
+    
+}
+.plchlder textarea{
+    height: 9vh;
+    width: 97%;
+    margin-top: 12%;
+}
+
+
+   .holderdv{
+    margin-left: 0;
+    
+    width: 91vw;
+    height: 13vh;
+}
+
+
+   .bglastdv{
+   margin-top: 8%;
+    margin-bottom: 5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+    .prvacy p{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(96, 91, 91);
+}
+
+
+
+   .casebutton{
+  margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+
+
+
+  .casebutton button{
+    width: 70vw;
+    border: none;
+    height: 6vh;
+    background-color: brown;
+    color: white;
+    font-size: 13px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 1%;
+    
+}  
+
+
+
+    .mediacontainer{
+        
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+}
+.leftdv{ 
+    width: 100%;  
+} 
+.leftdv h1{
+    font-size: 20px;
+    margin-right: 15%;
+}  
+ .leftdv span{
+    font-size: 20px;
+    color: red;
+} 
+.textsec{
+    display: flex;
+    flex-wrap: wrap;
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textsec P{
+    margin-right: 15%;
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: rgb(194, 22, 22);
+
+}  
+.paragraphdv{
+   
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+    .paragraphdv p{
+    color: rgba(106, 102, 102, 0.827);
+    margin-top: 3%;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-right: 15%;
+}
+  .paragraphdv img{
+    margin-left: 32%;
+    width: 17vw;
+    margin-bottom: 5%;
+    height: 17vh;
+}
+    .bttndv{
+    
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    border-top: 2px solid grey;
+     width: 60vw;
+    margin-left: 20%;
+    
+}
+   .bttndv button{
+    border: none;
+    background-color: rgb(172, 18, 18);
+    color: white;
+    margin-right: 15%;
+   
+    height: 5vh;
+    width: 43vw;
+    font-size: 15px;
+    box-shadow: 0px 8px 20px rgba(29, 28, 28, 0.4)
+    
+} 
+
+
+
+    .middv{
+    width: 100%;
+   margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+  .lawy{
+    width: 100%;
+    
+    height: 25vh;
+    margin-top: 4%;
+    margin-left: 0%;
+    border-bottom: none;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 15%;
+}  
+
+    .lawdv{
+    margin-left: 0%; 
+    margin-right: 0%;  
+    flex-wrap: wrap;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+}
+.lawimgtextdiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+   
+}
+   .lawdivtext h1{
+   margin-right: 0%;
+   margin-left: 0%;
+    font-size: 20px;
+    width: 100%;
+} 
+
+    .lawdivtext span{
+    color: brown;
+    font-size: 20px;
+    
+}
+.middivimg{
+    width: 100%;
+    margin-top: 5%;
+}
+   .middivimg img{
+    margin-right: 0%;
+    width: 30vw;
+    margin-top: 0%;
+    height: 13vh;
+} 
+
+
+
+    .lawdivtext p{
+    font-family: sans-serif;
+    color: rgba(104, 98, 98, 0.573);
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 0%;
+    margin-left: 0%;
+     
+}
+    .lawbttn{
+    
+    width: 65%;
+    border-top: 2px solid grey;
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-left: 0%;
+}
+    .lawbttn button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 42vw;
+    font-size: 15px;
+    margin-right: 0%;
+    border: none;
+    margin-left: 0%;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+
+.dwncont{
+    display: flex; 
+    margin-bottom: 10%;  
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dwndv{
+    margin-left: 15%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.h1pimg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+.h1pdiv h1{
+    font-size: 20px;
+    margin-right: 17%;
+} 
+.h1pdiv span{
+    font-size: 20px;
+} 
+    .h1pdiv p{
+    font-size: 14px;
+    margin-right: 15%;
+}
+.imgdiv{
+    width: 100%;
+}
+   .imgdiv img{
+    margin-right:18%;
+    margin-top: 5%;
+    width: 30vw;
+    height: 15vh;
+}
+
+   .lawbutton{
+    width: 60vw;
+    margin-right: 20%;
+    margin-top: 5%;
+    border-top: 2px solid grey;
+} 
+
+
+
+    .lawbutton button{
+background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 43vw;
+    font-size: 15px;
+    margin-left: 2%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+
+ 
+
+   .rightdv{
+    width: 100%;
+    
+} 
+
+  .rightpics{
+    
+    width: 100%;
+    display: flex; 
+       margin-top: 3%;
+    margin-left: 15%;
+}  
+
+    .image1 img{
+    
+width: 30vw;
+height: 18vh;
+}
+
+
+    .image2 img{
+        
+    margin-left: 18%;
+width: 30vw;
+height: 18vh;
+}
+
+
+
+    .CCdv{
+    
+    margin-left: 0%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+
+
+    .CCdv h1{
+    font-size: 21px;
+    
+}
+
+
+
+   .CCdv span{
+    color: brown;
+    font-size: 21px;
+} 
+
+
+
+    .paragraphright{
+    margin-left: 0%;
+    margin-top: 2%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+    .paragraphright p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(121, 109, 109);
+    font-weight: bold;
+}
+
+
+
+  .ritbtn{
+    width: 54vw;
+    margin-top: 4%;
+    border-top: 2px solid grey;
+    margin-left: 20%;
+}  
+
+
+
+    .ritbtn button{
+background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 43vw;
+    font-size: 14px;
+    margin-left: 7%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+
+    .shadowpic img{
+    width: 100%;
+    height: 1.5vh;
+   
+}
+
+
+
+    .lastcontainer{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+  .lefttdiv{
+    
+    margin-left: 0%;
+    width: 100%;
+    letter-spacing: 3px;
+}  
+
+
+
+    .lefttdiv h2{
+    font-size: 22px;
+    margin-left: 20%;
+}
+
+
+
+    .lefttdiv span{
+    font-size: 22px;
+    color: brown;
+}
+
+
+
+   .greydiv{
+    
+    width: 88vw;
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    height: 12vh;
+    background-color: rgba(109, 107, 107, 0.899);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+
+} 
+
+
+
+    .greydiv img{
+    height: 12vh;
+    width: 2vw;
+}
+
+
+
+ .greydiv h2{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 4%;
+    margin-top: 2%;
+font-size: 18px;
+}   
+
+
+
+    .greyhb{
+    width: 100vw;
+    height: 28vh;
+}
+
+
+
+  .greyhb button{
+    background-color: rgba(123, 120, 120, 0.899);
+    margin-top:0%;
+margin-left: 75%;
+font-size: 9px;
+border: none;
+color: white;
+font-weight: bold;
+height: 5vh;
+}  
+
+
+
+    .learnmoreabout{
+    margin-left: 14%;
+    margin-top: 10%;
+    width: 100%;
+   
+    
+}
+
+
+
+   .learnmoreabout h1{
+    font-size: 22px;
+    margin-bottom: 20%;
+    font-family: sans-serif;
+} 
+
+    .xyz{
+    margin-left: 14%;
+    margin-bottom: 5%;
+}
+
+ .greyhb span{
+  
+     font-size: 15px;
+}
+
+
+
+   .bigheading{
+    width: 100%;
+    margin-left: 7%;
+    
+} 
+
+
+
+
+    .bighead h1{
+    color: black;
+    font-size: 25px;
+    margin-left: 9%;
+}
+
+.midparagraph{
+    width: 100%;
+    margin-left: -4%;
+
+}
+
+  .midparagraph p{
+    
+    font-family: sans-serif;
+    margin-bottom: 1%;
+    font-size: 16px;
+    width: 95%;
+}  
+
+
+
+    .lasttdiv{
+    width: 100%; 
+    margin-top: 13%;
+    
+}
+
+
+
+    .cmbineitems{
+    margin-left: 15%;
+}
+
+
+
+    .clientsdv h1{
+font-size: 20px;
+margin-left: 18%;
+}
+
+
+
+    .clientsdv span{
+    font-size: 20px;
+    color: brown;
+}
+
+
+
+
+   .clientp p{
+    margin-left: 18%;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 80%;
+    margin-top: 2%;
+} 
+
+
+
+  .clientbutton button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 25vw;
+    font-size: 12px;
+  margin-bottom: 18%;
+    margin-left: 18%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}  
+
+
+
+   .clientbutton{
+    
+    width: 40vw;
+    margin-top: 4%;
+    margin-left: 10%;
+    border-top: 2px solid grey;
+} 
+
+
+
+    .bluepic{
+    margin-left: 25%;
+    width: 100%;
+}
+
+
+
+   .bluepic img{
+    height: 23vh;
+    width: 40vw;
+} 
+
+
+
+
+    .blackpic{
+    margin-left: 28%;
+    width: 100%;
+}
+
+
+
+
+   .blackpic img{
+    height: 25vh;
+    width: 35vw;
+} 
+
+
+
+    .follow{
+    width: 90%;
+    margin-left: 13%;
+    
+}
+
+
+
+  .fllwus{
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 5%; 
+    
+}  
+
+
+
+   .fllwus h1{
+    margin-left: 27%;
+    font-size: 20px;
+font-weight: bolder;
+} 
+
+.fllwus span{
+    
+    font-size: 20px;
+font-weight: bolder;
+}
+
+
+   .fllwus img{
+    margin-left: 11%;
+    width: 85%;
+} 
+
+
+
+    .socialmedia{
+    display: flex;
+    margin-top: 0%;
+    margin-left: 21%;
+}
+
+
+
+
+    .sm1 img{
+    width: 8vw;
+    margin: 4px;
+    margin-left: 65%;
+    }
+    .headlast2div{
+    flex-wrap: wrap;
+    }
+}
+
+/************** TabletScreen ****************/
+
+    
+@media(min-width: 769px) and (max-width: 1280px){
+
+.keeferdv{
+    width: 100%;
+    flex-wrap: wrap;
+}  
+
+    .logodv{
+    width: 100%;
+    
+}
+   .logodv img{
+    width: 60vw;
+    margin-left: 19%;
+   
+    height: 100%;
+} 
+
+  .infodiv{
+    
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: -5%;
+}
+
+    .calldiv{
+   margin-right: 20%;
+   margin-top: 0%;
+   width: 60%;
+   
+}
+
+    .calldiv h3{
+        
+        width: 59%;
+    margin-left: 30%;
+        display: flex;
+    border-bottom: 3px solid rgba(124, 124, 124, 0.264);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(172, 11, 11);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+
+    .calldiv h1{
+          font-family: sans-serif;
+        font-size: 322%;
+        font-weight: bolder;
+        margin-left: 18%;
+}
+
+
+
+
+  .calldiv p{
+   font-family: sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+        margin-bottom: 3%;
+        margin-left: 18%;
+}  
+
+
+
+    .homediv{
+             width: 114%;
+        padding: 14px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+        margin-left: -22%;
+        margin-right: 0%;
+}
+
+
+
+    ul{
+       
+    margin-right: 0%;
+    justify-content: space-around;
+    width: 73%;
+    margin-left: 25%;
+        
+}
+
+    .headlast2div{
+        width: 100%;
+        display: flex;
+    }
+
+    .midddiv{
+    width: 48%;
+}
+.lefttdiv{
+    width: 48%;
+}
+
+    li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 15%;
+    align-items: center;
+    background-color: brown;
+    padding: 6px;
+    
+}
+.homediv ul li a{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+    .picdv{
+    margin-top: 5%;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 95%;
+    flex-wrap: wrap;
+    margin-left: 1%;
+    
+}
+
+    .leftpic img{
+    width: 100%;
+    }
+    .leftpic{ 
+    height: 67vh;
+    width: 100%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
+}
+    .righpic{
+    margin-left: 2%;
+    margin-top: 4%;
+    height: 100%;
+    width: 100%;
+    background-image: url("./pics/form_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
+}
+   .maincntn{
+    display: flex;
+    flex-wrap: wrap;
+   }
+    .qstndv{
+    height: 4vh;
+    width: 24%;
+    background-color: brown;
+    
+    
+}
+  .qstndv h1{
+    color: white;
+    font-size: 23px;
+    
+}
+   .ritqstn{
+  
+  margin-left: 0%;
+    width: 100vw;
+   
+}
+    .ritqstn p{
+        
+        margin-left: 2%;
+    font-size: 18px;
+    font-weight: bolder;
+}
+    .ritqstn span{
+    font-size: 21px;
+    color: rgb(50, 0, 116);
+    font-weight: bolder;
+}
+    .psentense span{
+        color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+.psentense{
+    width: 110vw;
+}
+
+    .psentense p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+ margin-right: 20%;
+}
+
+.formcont{
+    display: flex;
+    width: 40vw;
+    height: 15vh;
+}
+
+    .formdv{
+    text-align: center;
+    margin-top: 2%;
+    height: 13vh;
+    width: 100%;
+    margin-left: 0;
+    
+}
+
+.lblone{
+    margin-left: 0%;
+    text-align: start;
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    
+}
+
+    .formdv input{
+    height: 4vh;
+    width:50vw;
+    margin-right: 20%;
+  
+}
+.confidential{
+   width: 100%;
+    text-align: end;
+  
+    margin-left: 60%;
+    margin-top: 8%;
+    
+}
+    .confidential img{
+
+    transform: rotate(9.5deg);
+    height: 10vh;  
+    width: 18vw; 
+   margin-left: 30%;
+    margin-top: 0%;
+    
+}
+.plchlder textarea{
+    height: 11vh;
+    width: 98%;
+    margin-top: 0%;
+}
+
+
+   .holderdv{
+    margin-left: 0;
+    
+    width: 91vw;
+    height: 13vh;
+}
+
+
+   .bglastdv{
+    width: 100%;
+    display: block;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+
+    .prvacy p{
+        margin-top: 3%;
+    width: 100%;
+    margin-left: 30%;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(96, 91, 91);
+}
+
+
+
+   .casebutton{
+ 
+    width: 100%;  
+    
+} 
+
+
+
+  .casebutton button{
+    width: 35vw;
+    border: none;
+    height: 6vh;
+    background-color: brown;
+    color: white;
+    font-size: 18px;
+    margin-left: 22%;
+    margin-top: 0%;
+    
+}  
+
+.mediacontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+}
+
+.leftdv{
+   
+    width: 49.5%;
+     
+    border-right: 2px solid rgba(194, 177, 177, 0.352);
+}
+
+.leftdv h1{
+    font-size: 24px;
+}
+
+.leftdv span{
+    font-size: 25px;
+    color: red;
+}
+
+.textsec{
+    margin-left: 14%;
+}
+
+
+.xyz h1{
+    margin-left: 25%;
+    margin-bottom: 2%;
+    color: rgba(128, 128, 128, 0.608);
+}
+
+.textsec P{
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(194, 22, 22);
+}
+
+.paragraphdv p{
+    color: rgba(0, 0, 0, 0.827);
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.paragraphdv{
+    margin-left: 14%;
+    display: flex;
+}
+.paragraphdv img{
+    margin-left: 7%;
+    width: 9vw;
+margin-bottom: 5%;
+height: 18vh;
+}
+
+.bttndv{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    border-top: 2px solid grey;
+    width: 30vh;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+
+.bttndv button{
+    border: none;
+    background-color: rgb(172, 18, 18);
+    color: white;
+    margin-right: 15%;
+   
+    height: 4vh;
+    width: 15vw;
+    font-size: 14px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+    
+}
+
+.middv{
+    width: 49.5%;
+    
+}
+
+
+.lawy{
+    width: 90%;
+    display: flex;
+   
+    height: 26vh;
+     
+}
+.lawdv{
+    width: 90%;
+    height: 26vh;
+     margin-left: 10%;
+}
+
+.lawdv h1{
+    width: 70%;
+    font-size: 24px;
+    
+}
+
+.middv span{
+    color: brown;
+    font-size: 24px;
+}
+
+.lawy img{
+    width: 14vw;
+    height: 16vh;
+   
+}
+
+.middv p{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.573);
+    font-weight: bold;
+    font-size: 15px;
+}
+.lawbttn{
+    border-top: 2px solid grey;
+    width: 20vw; 
+    /* margin-top: 15%; */
+}
+
+.lawbttn button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 15vw;
+    font-size: 15px;
+    border: none;
+    margin-left: 15%;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+.dwncont{
+    display: flex;
+    
+}
+
+.dwndv{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 100%;
+   
+}
+
+.h1pdiv h1{
+    font-size: 24px;
+}
+.h1pdiv{
+    width: 50%;
+    justify-content: start;
+}
+.imgdiv{
+    width: 50%;
+    justify-content: end;
+}
+.h1pdiv span{
+    font-size: 24px;
+}
+
+.dwndv p{
+    font-size: 15px;
+}
+.h1pimg{
+    display: flex;
+}
+
+.imgdiv img{
+     width: 14vw;
+    height: 16vh;
+    margin-left: 10%;
+   
+}
+.lawbutton{
+    
+    width: 20vw;
+   margin-top: 0%;
+    border-top: 2px solid grey;
+}
+
+.lawbutton button{
+background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 15vw;
+    font-size: 15px;
+    
+    margin-left: 15%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+
+.rightdv{
+    width: 100%;
+    margin-top: 2%;
+   
+}
+
+.rightpics{
+    display: flex; 
+   
+    width: 40%;
+   margin-left: 37%;
+}
+
+.rightpics{
+    margin-top: 3%;
+   
+}
+
+.image1 img{
+    
+width: 12vw;
+height: 15vh;
+}
+
+.image2 img{
+    
+width: 12vw;
+height: 15vh;
+}
+
+
+
+.CCdv{
+    margin-top: 0%;
+    margin-left: 38%;
+   
+   
+}
+
+.CCdv h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 5%
+}
+
+.CCdv span{
+    color: brown;
+    font-size: 25px;
+}
+
+.shadowpic{
+    margin-top: 5%;
+}
+
+.paragraphright{
+    margin-left: 38%;
+    margin-top: 1%;
+    width: 25%;
+    text-align: center;
+}
+
+.paragraphright p{
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(76, 72, 72);
+    font-weight: bold;
+}
+
+.ritbtn{
+    
+width: 100%;
+    margin-top: 4%;
+    border-top: 2px solid grey;
+   margin-left: -1%;
+}
+
+.ritbtn button{
+background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 20vw;
+    font-size: 14px;
+    margin-left: 0%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+.shadowpic img{
+    width: 100%;
+    height: 1.5vh;
+}
+
+
+
+
+    .lastcontainer{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+  .lefttdiv{
+    
+    margin-left: 0%;
+    /* width: 48%; */
+    letter-spacing: 3px;
+}  
+
+
+
+    .lefttdiv h2{
+    font-size: 22px;
+    margin-left: 2%;
+}
+
+
+
+    .lefttdiv span{
+    font-size: 22px;
+    color: brown;
+}
+
+
+
+   .greydiv{
+    
+    width: 96%;
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    height: 16.5vh;
+    background-color: rgba(109, 107, 107, 0.899);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+
+} 
+
+
+
+    .greydiv img{
+    height: 16.5vh;
+    width: 1vw;
+}
+
+
+
+ .greydiv h2{
+   font-family: sans-serif;
+        color: white;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 27px;
+}   
+
+
+
+    .greyhb{
+    width: 100vw;
+    height: 16vh;
+    
+}
+
+
+
+  .greyhb button{
+    background-color: rgba(123, 120, 120, 0.899);
+    margin-top:7%;
+margin-left: 65%;
+font-size: 14px;
+border: none;
+color: white;
+font-weight: bold;
+height: 5vh;
+}  
+
+
+
+    .learnmoreabout{
+    margin-left: 34%;
+    margin-top: 10%;
+    width: 100%;
+   
+    
+}
+
+
+
+   .learnmoreabout h1{
+    margin-bottom: 5%;
+    font-family: sans-serif;
+    width: 62%;
+    font-size: 27px;
+    margin-left: -11%;
+} 
+
+
+
+   .learnmoreabout span{
+    font-size: 27px;
+    font-family: sans-serif;
+} 
+
+
+
+    .xyz{
+    margin-left: 24%;
+    margin-bottom: 5%;
+    font-size: 13px;
+}
+
+ .greyhb span{
+     font-size: 20px;
+}
+
+
+
+   .bigheading{
+    width: 100%;
+    margin-left: 10%;
+    
+} 
+
+
+
+
+    .bighead h1{
+    color: black;
+    font-size: 33px;
+    margin-left: 9%;
+}
+
+.midparagraph{
+    width: 100%;
+    margin-left: -4%;
+
+}
+
+  .midparagraph p{
+    
+    font-family: sans-serif;
+        margin-bottom: 1%;
+        font-size: 18px;
+        width: 94%;
+}  
+
+
+
+    .lasttdiv{
+    width: 100%; 
+    margin-top: 7%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.formediaq{
+    
+     width: 40%;
+}
+.medscree{
+    
+    width: 40%;
+    
+}
+    .cmbineitems{
+        width: 100%;
+    
+}
+
+
+
+    .clientsdv h1{
+font-size: 20px;
+margin-left: 18%;
+}
+
+
+
+    .clientsdv span{
+    font-size: 20px;
+    color: brown;
+}
+
+
+
+
+   .clientp p{
+    margin-left: 18%;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 80%;
+    margin-top: 2%;
+} 
+
+   .clientbutton{
+    
+    width: 25vw;
+    margin-top: 4%;
+    margin-left: 25%;
+    border-top: 2px solid grey;
+} 
+
+  .clientbutton button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 15vw;
+    font-size: 12px;
+  margin-bottom: 18%;
+    margin-left: 10%;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4)
+}  
+
+
+
+
+
+
+
+    .bluepic{
+        margin-top: 10%;
+    width: 100%;
+     margin-left: 2%;
+}
+
+
+
+   .bluepic img{
+    height: 16vh;
+   
+    width: 13vw;
+} 
+
+
+
+
+    .blackpic{
+   margin-left: 2%;
+    width: 100%;
+    
+}
+
+
+
+
+   .blackpic img{
+    height: 16vh;
+    width: 12vw;
+    margin-top: 7%;
+} 
+
+
+
+    .follow{
+    width: 100%;
+    margin-left: 0%;
+    
+}
+
+
+
+  .fllwus{
+    width: 100%;
+    margin-top: 5%;
+    
+    
+}  
+
+
+
+   .fllwus h1{
+   margin-left: 0%;
+    font-size: 20px;
+font-weight: bolder;
+} 
+
+.fllwus span{
+    
+    font-size: 20px;
+font-weight: bolder;
+}
+
+
+   .fllwus img{
+    margin-left: 3%;
+    width: 40%;
+} 
+
+
+
+    .socialmedia{
+    display: flex;
+    margin-top: 0%;
+    margin-left: 30%;
+}
+
+
+
+
+    .sm1 img{
+    width: 4vw;
+    margin: 4px;
+   
+    }
+}
+

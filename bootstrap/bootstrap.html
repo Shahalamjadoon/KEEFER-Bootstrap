@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keefer Bootstarp</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="">
+</head>
+
+<body>
+  <style>
+    :root {
+      --brand: rgb(143, 10, 10);
+      --dark-gray: #5a5656;
+    }
+
+    body {
+      background-color: #fff;
+    }
+
+
+    .outer-border {
+      border: 20px solid #aaa;
+      background-color: #fff;
+    }
+
+
+    .header-top {
+      background-color: #f8f8f8;
+
+    }
+
+    .call-text {
+      color: var(--brand);
+      font-weight: 600;
+      border-bottom: 5px solid #656464;
+      display: inline-block;
+      font-size: 1.3rem;
+    }
+
+    .phone {
+      font-weight: 800;
+      font-size: 2.3rem;
+      color: #030303;
+    }
+
+    .fast-text {
+      color: var(--dark-gray);
+      font-size: 1rem;
+    }
+
+    .navbar {
+      background-color: var(--brand);
+    }
+
+    .navbar-nav .nav-link {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .navbar-nav .nav-link:hover {
+      background-color: #b39494;
+    }
+
+    .main-left .banner-img {
+      object-fit: cover;
+      box-shadow: 0px 4px 8px 0px gray;
+      height: 453px;
+    }
+
+    .card-body {
+      height: 100%;
+      height: auto;
+      background-image: url("./pics/form_bg.jpg");
+      box-shadow: 0px 4px 8px 0px gray;
+      background-size: cover;
+      padding: 0px;
+      background-repeat: no-repeat;
+    }
+
+    .card-title {
+      display: block;
+    }
+
+
+    .heading-3 {
+      width: 40%;
+      display: block;
+    }
+
+    .heading-3 h3 {
+      font-size: 25px;
+      color: #fff;
+      background: var(--brand);
+      font-weight: bolder;
+      padding: 10px;
+    }
+
+    .para-3 p {
+      font-size: 23px;
+    }
+
+    .para-3 strong {
+      color: #003481;
+      font-size: 25px;
+    }
+
+    .form-img img {
+      transform: rotate(20deg);
+    }
+
+    .btn {
+      background: var(--brand);
+      border: none;
+      color: #fff;
+    }
+
+    .left-section .btn2,
+    .mid-section .btn2,
+    .right-section .btn2 {
+      background: var(--brand);
+      color: #fff;
+      border: none;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+
+    .btns2 {
+      background: #7c7979;
+      color: #fff;
+      border: 0;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .btns3 {
+      background: #7c7979;
+      color: #fff;
+      border: 0;
+      display: flex;
+      align-items: start;
+      gap: 0.75rem;
+      padding: 1rem 1.5rem;
+      width: 100%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .last {
+      padding: 1.5rem 0;
+    }
+
+    .last-left h3,
+    .last-mid h1,
+    .last-right h3 {
+      color: var(--dark-gray);
+      font-family: 'Times New Roman', serif;
+    }
+
+    .site-footer {
+      height: 24px;
+      background-color: var(--brand);
+    }
+  </style>
+  <div class="outer-border  m-0 p-0">
+    <div class="container-fluid header-top px-0 py-0">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-8 col-lg-8 logo d-flex justify-content-start">
+          <img src="./pics/logo.png" width="100%" alt="Logo">
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 text-md-end text-center px-5 mt-3 mt-md-0">
+          <p class="call-text mb-1">CALL OUR OFFICES NOW!</p>
+          <p class="phone mb-1">540.433.6906</p>
+          <p class="fast-text mb-0">Get Your Questions Answered Fast</p>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-dark" style="background-color: rgb(143, 10, 10);">
+      <div class="container-fluid justify-content-end">
+        <ul class="navbar-nav d-flex flex-row">
+          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">HOME</a></li>
+          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">BIOGRAPHY</a></li>
+          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">BLOG</a></li>
+          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">AREAS WE SERVE</a></li>
+          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">LIBRARY</a></li>
+          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+
+    </nav>
+    <div class="container-fluid">
+      <div class="row g-4 m-2">
+        <div class="col-lg-7">
+          <div class="card main-left shadow-sm">
+            <img src="./pics/gurantee_banner.gif" class="banner-img" alt=" ">
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="card main-right shadow-sm rounded-0">
+            <div class="card-body">
+              <div class="right-title col-12 d-flex">
+                <div class="heading-3  col-5 me-0">
+                  <h3 class="card-title ">QUESTIONS?</h3>
+                </div>
+                <div class="para-3 col-7">
+                  <p class="rigth-img-title  px-3 mt-3">Have a <strong>Question</strong> <br>About
+                    Your Case
+                  </p>
+                </div>
+              </div>
+              <p class="muted-block ms-3">Enter your information and get your questions answered quickly
+                and discreetly or call us at: <strong>540.433.6906</strong></p>
+
+              <form class="row g-2">
+                <div class="form-element d-flex ms-3 col-12">
+                  <div class="entery-element col-7">
+                    <div class="sub-element d-flex">
+                      <div class="lbl col-3 fw-bold"><label for="NAME :">NAME:</label></div>
+                      <div class="col-9"><input class="form-control rounded-0 mb-1" placeholder=" "></div>
+                    </div>
+                    <div class="sub-element d-flex">
+                      <div class="lbl col-3  fw-bold"><label for="EMAIL :">EMAIL:</label></div>
+                      <div class="col-9"><input class="form-control rounded-0 mb-1" placeholder=" "></div>
+                    </div>
+                    <div class="sub-element d-flex">
+                      <div class="lbl col-3  fw-bold"><label for="PHONE :">PHONE:</label></div>
+                      <div class="col-9"><input class="form-control rounded-0 mb-1" placeholder=" "></div>
+                    </div>
+                  </div>
+                  <div class="form-img col-5 mt-4 ms-3 ">
+                    <img src="./pics/confidential.png" width="75%" height="60%" alt="">
+                  </div>
+                </div>
+
+                <div class="col-11 ms-3">
+                  <textarea class="form-control rounded-0" rows="3">Tell us about your case here...</textarea>
+                </div>
+
+                <div class="right-last col-12 d-flex text-end me-5">
+                  <div class="form-italic-txt  col-5">
+                    <p class="italic-text ms-0 mt-2 px-0  fs-0.01" style="font-style: italic;">100%
+                      Privacy Guranteed</p>
+                  </div>
+                  <div class="form-btn  col-6 ">
+                    <button class="btn rounded-0 p-2 ms-3 mb-3 w-100 ">Ask Us About
+                      Your Case <img src="./pics/bullet_white.gif" width="6%"></button>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="container main-2 p-2 mt-4">
+      <div class="row">
+        <div class="col-lg-4 left-section d-grid">
+          <div class="p-2">
+            <h3>CHARGED WITH <span style="color:var(--brand)">DUI?</span></h3>
+            <p class="" style="font-size: 1rem; font-weight: bold; color:var(--brand)">FREE CASE EVALUATION
+            </p>
+            <div class="main2-lefttext d-flex">
+              <p class="muted-block">Being charged with a DUI <br>can be scary.Get the help <br>you
+                deserve
+                <br> <br>
+                Click here to let us know <br>how can we help you with <br>your case
+              </p>
+              <img src="./pics/paste_board.gif" alt="" class="img-fluid ms-3" style="width: 100px; height:100%;">
+            </div>
+            <div class="position-relative">
+              <div class="position-absolute top-0 start-0  z-index-1">
+                <img src="./pics/lf_bt_hr_shadow.png" alt="">
+              </div>
+              <button class="btn btn2 btn-brand position-relative z-index-2 mt-2 rounded-0 ms-3  w-50">Click
+                Here <img src="./pics/bullet_white.gif" alt=""></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mid-section border-start border-end">
+          <div class="p-3">
+            <div class="d-flex align-items-center mb-3">
+              <div class="flex-grow-1 d-grid">
+                <h3>LAW <span style="color:var(--brand)">Blog</span></h3>
+                <p class="muted-block">Learn more about Virginia Traffic Laws</p>
+                <div class="position-relative">
+                  <div class="position-absolute top-0 start-0  z-index-1  m-0 p-0 d-inline-block">
+                    <img src="./pics/lf_bt_hr_shadow.png" alt="">
+                  </div>
+                  <button
+                    class="btn btn2 btn-brand position-relative z-index-2 mt-2 rounded-0 ms-3 px-4 py-2 w-90">Click
+                    Here <img src="./pics/bullet_white.gif" alt=""></button>
+                </div>
+              </div>
+              <div class="ms-3">
+                <img src="./pics/pic1.gif" alt="" style="max-width:120px;">
+              </div>
+            </div>
+
+            <hr>
+
+            <div class="d-flex align-items-center">
+              <div class="d-grid">
+                <h3>Case <span style="color:var(--brand)">Results</span></h3>
+                <p class="muted-block mb-2">See how we help our clients. Read our latest case results.
+                </p>
+                <div class="position-relative">
+                  <div class="position-absolute top-0 start-0  z-index-1  m-0 p-0 d-inline-block">
+                    <img src="./pics/lf_bt_hr_shadow.png" alt="">
+                  </div>
+                  <button
+                    class="btn btn2 btn-brand position-relative z-index-2 mt-2 rounded-0 ms-3 px-4 py-2 w-90">Click
+                    Here <img src="./pics/bullet_white.gif" alt=""></button>
+                </div>
+              </div>
+
+              <div class="ms-3 mb-4">
+                <img src="./pics/order_icon.gif" alt="" style="max-width:100px;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 right-section d-grid">
+          <div class="p-4">
+            <div class="d-flex gap-2 align-items-center mb-3">
+              <img src="./pics/qqq.gif" alt="" style="width:40%;">
+              <img src="./pics/national_college_small.gif" alt="" style="width:30%;">
+            </div>
+
+            <h3>CERTIFICATES & <span style="color:var(--brand)">CREDENTIALS</span></h3>
+            <p class="muted-block">Keefer law Firm has protected the rights of Virginians for over 30 years.
+            </p>
+            <div class="position-relative">
+              <div class="position-absolute top-0 start-0  z-index-1">
+                <img src="./pics/lf_bt_hr_shadow.png" alt="">
+              </div>
+              <button class="btn btn2 btn-brand position-relative z-index-2 mt-2 rounded-0 ms-3  w-50">Click
+                Here <img src="./pics/bullet_white.gif" alt=""></button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="boarder">
+      <img src="./pics/hr_shadow.png" width="100%" alt="">
+    </div>
+
+    <section class="container last">
+      <div class="row ">
+        <div class="col-lg-3 last-left ">
+          <h3>PRACTICE <span style="color:var(--brand)">AREAS</span></h3>
+
+          <div class="mt-4 d-grid gap-3">
+            <button class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar"> <span style="font-weight:600">DUI &
+                DWI</span>
+              <p class="ms-auto">LEARN MORE<img src="./pics/bullet_red.gif" alt="">
+              </p>
+            </button>
+
+
+            <button class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar"> <span style="font-weight:600">RECKLESS
+                DRIVING</span>
+              <p class="ms-auto">LEARN MORE<img src="./pics/bullet_red.gif" alt="">
+              </p>
+            </button>
+            <button class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar"> <span style="font-weight:600">SPEEDING
+                TICKETS</span>
+              <p class="ms-auto">LEARN MORE<img src="./pics/bullet_red.gif" alt="">
+              </p>
+            </button>
+            <button class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar "> <span
+                style="font-weight:600 ">TRAFFIC
+                VIOLATIONS</span>
+              <p class="ms-auto">LEARN MORE<img src="./pics/bullet_red.gif" alt="">
+              </p>
+            </button>
+          </div>
+
+          <div class="mt-4">
+            <h3>LEARN <span style="color:var(--brand)">MORE</span> ABOUT</h3>
+            <h2 class="text-muted mt-4 ms-4">MENU<br>AREA<br>HERE</h2>
+          </div>
+        </div>
+
+        <div class="col-lg-6 last-mid p-2">
+          <h3>&lt;H1&gt; PAGE TITLE HERE</h3>
+          <p class="muted-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta mollitia corporis
+            veniam nihil, sunt voluptas dolor facere? Maiores quae voluptas quisquam dignissimos enim ab obcaecati
+            corporis quibusdam dolor labore! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores,
+            voluptate quis excepturi temporibus placeat recusandae debitis atque quibusdam.
+            Facere tempore nihil quis, et quidem non vero quia sit beatae sint. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dolore, praesentium beatae. Accusamus ex perspiciatis aperiam. Dolorum repellendus
+            reiciendis voluptatum dolore deserunt veritatis. Dolorem maxime, unde quod vero facilis omnis tempora? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempore magni perspiciatis veniam consequatur
+            amet voluptatum deleniti incidunt velit similique.
+            Doloremque velit, eligendi cum non ipsam excepturi necessitatibus dolores. Beatae. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Perferendis id aspernatur praesentium illum, facere dicta repellendus
+            vitae error esse commodi quaerat voluptatem nam voluptas incidunt tempore itaque, consequuntur eius optio?
+          </p>
+        </div>
+
+        <div class="col-lg-3 last-right p-2">
+          <div class="uper-last">
+
+            <div class="clickbtn-side mb-4">
+              <div class="text">
+                <h3>CLIENT <span style="color:var(--brand)">TESTIMONIALS</span></h3>
+                <p class="muted-block">Read what others say <br>about Keefer Law Firm.</p>
+              </div>
+              <div class="position-relative">
+                <div class="position-absolute top-0 start-0  z-index-1">
+                  <img src="./pics/lf_bt_hr_shadow.png" alt="">
+                </div>
+                <button class="btn btn2 btn-brand position-relative z-index-2 mt-2 rounded-0 ms-5  w-50">Click
+                  Here <img src="./pics/bullet_white.gif" alt=""></button>
+              </div>
+            </div>
+
+
+
+            <div class="clickbtn-side mb-4">
+              <div class="text">
+                <h3>DOWNLOAD <span style="color:var(--brand)">FREE</span> REPORTS</h3>
+                <p class="muted-block">Discover the truth about <br>Virginia Law.</p>
+              </div>
+              <div class="position-relative">
+                <div class="position-absolute top-0 start-0  z-index-1">
+                  <img src="./pics/lf_bt_hr_shadow.png" alt="">
+                </div>
+                <button class="btn btn2 btn-brand position-relative z-index-2 mt-2 rounded-0 ms-5  w-50">Click
+                  Here <img src="./pics/bullet_white.gif" alt=""></button>
+              </div>
+
+            </div> 
+
+
+
+            <div class="clickbtn-side mb-4">
+              <div class="text">
+                <h3>CONTACT<br><span style="color:var(--brand)">OUR</span> OFFICES</h3>
+                <p class="muted-block">Get your questions<br>answered right now.</p>
+              </div>
+              <div class="position-relative">
+                <div class="position-absolute top-0 start-0  z-index-1">
+                  <img src="./pics/lf_bt_hr_shadow.png" alt="">
+                </div>
+                <button class="btn btn2 btn-brand position-relative z-index-2 mt-2 rounded-0 ms-5  w-50">Click
+                  Here <img src="./pics/bullet_white.gif" alt=""></button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="images-last">
+            <div class="imgs">
+              <div class="img-last1 mt-4 "><img src="./pics/avo_rating_large.gif" width="180px" alt=""></div>
+              <div class="img-last2 mt-4 "><img src="./pics/national_college_large.gif" width="150px" alt="">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="mb-4 mt-4">
+            <h3>FOLLOW <span style="color:var(--brand)">US</span></h3>
+            <div class="d-flex gap-2">
+              <img src="./pics/fb_icon.gif" width="30" alt="fb">
+              <img src="./pics/google_icon.gif" width="30" alt="google">
+              <img src="./pics/linked_icon.gif" width="30" alt="linked">
+              <img src="./pics/twitter_icon.gif" width="30" alt="twiter">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer"></footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
