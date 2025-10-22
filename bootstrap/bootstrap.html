@@ -86,7 +86,7 @@
 
 
     .heading-3 {
-      width: 40%;
+      width: 27%;
       display: block;
     }
 
@@ -115,6 +115,9 @@
       background: var(--brand);
       border: none;
       color: #fff;
+    }
+    .btn img{
+      width: 3%;
     }
 
     .left-section .btn2,
@@ -147,9 +150,27 @@
       display: flex;
       align-items: start;
       gap: 0.75rem;
-      padding: 1rem 1.5rem;
+      /* padding: 1rem 1.5rem; */
       width: 100%;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+      height: 10vh;
+    }
+
+    .btns3 img {
+      height: 10vh;
+    }
+
+    .btns3 p {
+      font-size: 11px;
+      margin-top: 12%;
+
+      margin-right: 4%;
+    }
+
+    .btns3 p img {
+      width: 10%;
+      height: 13%;
+      margin-left: 0%;
     }
 
     .last {
@@ -184,26 +205,26 @@
 
     <nav class="navbar navbar-dark" style="background-color: rgb(143, 10, 10);">
       <div class="container-fluid justify-content-end">
-        <ul class="navbar-nav d-flex flex-row">
-          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">HOME</a></li>
-          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">BIOGRAPHY</a></li>
-          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">BLOG</a></li>
-          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">AREAS WE SERVE</a></li>
-          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">LIBRARY</a></li>
-          <li class="nav-item"><a class="nav-link text-white px-3 fw-bold" href="#">CONTACT</a></li>
+        <ul class="row d-flex list-unstyled ">
+          <li class="nav-item  col-lg-2 col-sm-12 col-md-2 col-12"><a class="nav-link text-white px-3 fw-bold" href="#">BIOGRAPHY</a></li>
+          <li class="nav-item  col-lg-2 col-sm-12 col-md-2 col-12"><a class="nav-link text-white px-3 fw-bold" href="#">HOME</a></li>
+          <li class="nav-item col-lg-2 col-sm-12 col-md-2 col-12"><a class="nav-link text-white px-3 fw-bold" href="#">BLOG</a></li>
+          <li class="nav-item col-lg-2 col-sm-12 col-md-2 col-12"><a class="nav-link text-white px-3 fw-bold" href="#">AREAS</a></li>
+          <li class="nav-item col-lg-2 col-sm-12 col-md-2 col-12"><a class="nav-link text-white px-3 fw-bold" href="#">LIBRARY</a></li>
+          <li class="nav-item  col-lg-2 col-sm-12 col-md-2 col-12"><a class="nav-link text-white px-3 fw-bold" href="#">CONTACT</a></li>
         </ul>
       </div>
 
     </nav>
     <div class="container-fluid">
       <div class="row g-4 m-2">
-        <div class="col-lg-7">
+        <div class="col-lg-6">
           <div class="card main-left shadow-sm">
             <img src="./pics/gurantee_banner.gif" class="banner-img" alt=" ">
           </div>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-6">
           <div class="card main-right shadow-sm rounded-0">
             <div class="card-body">
               <div class="right-title col-12 d-flex">
@@ -250,8 +271,8 @@
                       Privacy Guranteed</p>
                   </div>
                   <div class="form-btn  col-6 ">
-                    <button class="btn rounded-0 p-2 ms-3 mb-3 w-100 ">Ask Us About
-                      Your Case <img src="./pics/bullet_white.gif" width="6%"></button>
+                    <div class="btn rounded-0 p-2 ms-3 mb-3 w-100 ">Ask Us About
+                      Your Case <img src="./pics/bullet_white.gif" width="6%"></div>
                   </div>
                 </div>
               </form>
@@ -362,29 +383,28 @@
           <h3>PRACTICE <span style="color:var(--brand)">AREAS</span></h3>
 
           <div class="mt-4 d-grid gap-3">
-            <button class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar"> <span style="font-weight:600">DUI &
+            <div class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar"> <span style="font-weight:600">DUI &
                 DWI</span>
               <p class="ms-auto">LEARN MORE<img src="./pics/bullet_red.gif" alt="">
               </p>
-            </button>
+            </div>
 
 
-            <button class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar"> <span style="font-weight:600">RECKLESS
+            <div class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar"> <span style="font-weight:600">RECKLESS
                 DRIVING</span>
               <p class="ms-auto">LEARN MORE<img src="./pics/bullet_red.gif" alt="">
               </p>
-            </button>
-            <button class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar"> <span style="font-weight:600">SPEEDING
+            </div>
+            <div class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar"> <span style="font-weight:600">SPEEDING
                 TICKETS</span>
               <p class="ms-auto">LEARN MORE<img src="./pics/bullet_red.gif" alt="">
               </p>
-            </button>
-            <button class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar "> <span
-                style="font-weight:600 ">TRAFFIC
+            </div>
+            <div class="btns3"><img src="./pics/menu_bg.gif" class="menu-bar "> <span style="font-weight:600 ">TRAFFIC
                 VIOLATIONS</span>
               <p class="ms-auto">LEARN MORE<img src="./pics/bullet_red.gif" alt="">
               </p>
-            </button>
+            </div>
           </div>
 
           <div class="mt-4">
@@ -442,7 +462,7 @@
                   Here <img src="./pics/bullet_white.gif" alt=""></button>
               </div>
 
-            </div> 
+            </div>
 
 
 
